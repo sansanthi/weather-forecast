@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: linear-gradient(56deg, rgb(252, 115, 156) 0%, rgb(139, 102, 241) 100%);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.weather-container {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.wrapper {
+    width: 800px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    transition: all 0.6s;
+    padding: 40px;
+
+}
+
+.tran-div {
+    /* From https://css.glass */
+
+    /* background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+#search-form {
+    border-bottom: 1px solid #ececec;
+}
+
+.search-btn {
+    background: rgba(117, 69, 239, 0.8);
+    border-color: transparent;
+    transition: all 200ms linear;
+}
+
+.search-btn:hover {
+    background: #7645EF;
+}
+
+#search-city {
+    background: transparent;
+    color: inherit;
+}
+
+#search-city::placeholder {
+    color: inherit;
+}
+
+.weather-icon {
+    margin-right: 20px;
+}
+
+.icon-img {
+    width: 60px;
+}
+
+.weather-icon p {
+    text-align: center;
+    margin: 0;
+}
+
+#temperature {
+    font-size: 64px;
+}
+
+.unit {
+    position: relative;
+    top: -34px;
+}
+
+.day {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.icon {
+    width: 42px;
+}
