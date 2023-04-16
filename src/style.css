@@ -94,3 +94,11 @@ ul {
 .icon {
     width: 42px;
 }
+
+.link {
+    color: rgba(39, 33, 66, .8);
+}
+
+.link a {
+    color: #7645EF;
+}
