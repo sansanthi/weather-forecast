@@ -95,11 +95,11 @@ function displayForecast(response) {
   let forecastHTML = `<div class="row">`;
   let forecastDays = response.data.daily;
   forecastDays.forEach((forecastDay, index) => {
-    if (index === 1 || index < 6) {
+    if (index < 6) {
       forecastHTML =
         forecastHTML +
         `<div class="col-2 text-center">
-              <h5 class="day">Fri</h5>
+              <h5 class="day">${days[index + 1]}</h5>
               <img
                 src="${forecastDay.condition.icon_url}"
                 alt=""
